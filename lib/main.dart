@@ -7,6 +7,7 @@ import 'app_initialization.dart';
 void main() async {
   await initializeApp();
 
+  // Run main app
   runApp(
     EasyLocalization(
       path: CodegenLoader.path,
